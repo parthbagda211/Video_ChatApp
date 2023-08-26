@@ -169,9 +169,3 @@ This is an example of how to list things you need to use the software and how to
 
 
 
-<!-- CONTACT -->
-## Contact
-
-Pulkit Changoiwala - [@pulkitchangoiwala](https://www.linkedin.com/in/pulkitchangoiwala/) - changoiw@iitg.ac.in
-
-Project Link: [https://github.com/PulkitChangoiwala/Video_Chat_App](https://github.com/PulkitChangoiwala/Video_Chat_App)
