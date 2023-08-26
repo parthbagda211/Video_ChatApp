@@ -18,14 +18,14 @@ require('dotenv').config();
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 // console.log(process.env);
 var firebaseConfig = {
-    apiKey: process.env.API_KEY_FB,
-    authDomain: process.env.AUTH_DOMAIN_FB,
-    databaseURL: process.env.DATABASE_URL_FB,
-    projectId: process.env.PROJECT_ID_FB,
-    storageBucket: process.env.STORAGE_BUCKET_FB,
-    messagingSenderId: process.env.MESSAGING_SENDER_ID_FB,
-    appId: process.env.APP_ID_FB,
-    measurementId: process.env.MEASUREMENT_ID_FB
+    apiKey: "AIzaSyAwXA2v2vpWpir_58_YQVGPP-g9xNyGvZg",
+    authDomain: "videochatapp-45107.firebaseapp.com",
+    databaseURL: "https://videochatapp-45107-default-rtdb.firebaseio.com",
+    projectId: "videochatapp-45107",
+    storageBucket: "videochatapp-45107.appspot.com",
+    messagingSenderId: "217207229468",
+    appId: "1:217207229468:web:79a163580cb847f2f6a3d9"
+   
 };
   // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
@@ -201,7 +201,7 @@ io.on('connection', socket => {
 
 })
 
-server.listen(process.env.PORT || 3030);
+server.listen(process.PORT || 3030);
 
 /* AUTO CLEAR CHAT */
 // function autoClear() {
