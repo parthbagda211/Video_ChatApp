@@ -38,21 +38,21 @@ roomIdToMeetName["yyh-ouxb-qcc"] = "PalPuls";
 
 
 
-app.set('view engine', 'ejs') //set default engine when ommitted
+// app.set('view engine', 'ejs') //set default engine when ommitted
 
 
-app.use(express.static('public'))
-app.use(express.json());
-app.use('/peerjs', peerServer);
-app.use(sessions({ 
-    secret: "thisismysecrctekeyfhrgfgrfrty84fwir767",
-    saveUninitialized: false,
-    resave: false
-})); //session middleware
+// app.use(express.static('public'))
+// app.use(express.json());
+// app.use('/peerjs', peerServer);
+// app.use(sessions({ 
+//     secret: "thisismysecrctekeyfhrgfgrfrty84fwir767",
+//     saveUninitialized: false,
+//     resave: false
+// })); //session middleware
 
-app.get('/', (req, res) => {
-    return res.render('home', {url:'decideOption'});
-});
+// app.get('/', (req, res) => {
+//     return res.render('home', {url:'decideOption'});
+// });
 
 app.post('/decideOption', (req, res) => {
     const { op }  = req.body;
